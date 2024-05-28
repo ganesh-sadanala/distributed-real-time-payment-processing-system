@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Add README.md">
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Update kafka to use kraft">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -86,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715932854551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update kafka to use kraft">
+      <option name="closed" value="true" />
+      <created>1716871722053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716871722054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +102,7 @@
     <MESSAGE value="Add kafka docker compose file" />
     <MESSAGE value="Add transaction processing and settlement consumer groups" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Update kafka to use kraft" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update kafka to use kraft" />
   </component>
 </project>
