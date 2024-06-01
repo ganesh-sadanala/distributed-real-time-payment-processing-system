@@ -4,8 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Add logging">
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="create profile specific properties files">
+      <change afterPath="$PROJECT_DIR$/payment-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/settlement/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/PaymentEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/settlement/SettlementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/transaction/processing/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/PaymentEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/transaction/processing/TransactionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/TransactionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-settlement.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-transaction.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/settlement/SettlementServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +84,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/gsadanala/IdeaProjects/distributed-real-time-payment-processing-system"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/settlement/src/main/java/com/systems" />
+      <recent name="$PROJECT_DIR$/payment-gateway" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.systems.payment.gateway" />
     </key>
@@ -139,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717217537501</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create profile specific properties files">
+      <option name="closed" value="true" />
+      <created>1717220559539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717220559539</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +200,7 @@
     <MESSAGE value="Update Payment Controller" />
     <MESSAGE value="Add unit tests for services" />
     <MESSAGE value="Add logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add logging" />
+    <MESSAGE value="create profile specific properties files" />
+    <option name="LAST_COMMIT_MESSAGE" value="create profile specific properties files" />
   </component>
 </project>
