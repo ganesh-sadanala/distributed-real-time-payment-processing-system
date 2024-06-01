@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Add unit tests for services">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Add logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717217363769</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add logging">
+      <option name="closed" value="true" />
+      <created>1717217537501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717217537501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +151,7 @@
     <MESSAGE value="Fix docker compose file bugs" />
     <MESSAGE value="Update Payment Controller" />
     <MESSAGE value="Add unit tests for services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests for services" />
+    <MESSAGE value="Add logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logging" />
   </component>
 </project>
