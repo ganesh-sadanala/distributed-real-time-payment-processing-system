@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Fix docker compose file bugs">
-      <change afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Update Payment Controller">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PaymentGatewayApplication.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.CodyAccountHistoryMigration": "true",
     "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
@@ -57,6 +60,11 @@
     "last_opened_file_path": "/Users/gsadanala/IdeaProjects/distributed-real-time-payment-processing-system"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.systems.payment.gateway" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716874277708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Payment Controller">
+      <option name="closed" value="true" />
+      <created>1717214848294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717214848294</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +140,7 @@
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Update kafka to use kraft" />
     <MESSAGE value="Fix docker compose file bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix docker compose file bugs" />
+    <MESSAGE value="Update Payment Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Payment Controller" />
   </component>
 </project>
