@@ -1,4 +1,4 @@
-package com.example.payment.gateway.service;
+package com.systems.payment.gateway.service;
 
 import com.systems.payment.gateway.model.PaymentEvent;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +15,11 @@ public class PaymentService {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    public void processPayment(PaymentRequest paymentRequest) {
-        // Business logic to process payment...
+    public void processPayment(PaymentEvent paymentEvent) {
+        // Business logic to process payment
+        System.out.println("Processing payment: " + paymentEvent.getPaymentId());
 
-        // Publish payment event to Kafka topic
-        PaymentEvent paymentEvent = new PaymentEvent(paymentRequest.getPaymentId(), paymentRequest.getAmount(), paymentRequest.getCustomerId());
+        // Send payment event to Kafka
         kafkaTemplate.send("payment-events", paymentEvent);
     }
 }

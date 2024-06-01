@@ -1,13 +1,11 @@
 package com.systems.payment.gateway.model;
 
-
 public class PaymentEvent {
-
     private String paymentId;
     private double amount;
-    private String customerId;
+    private String currency;
 
-    // Constructors, getters, and setters...
+    // Getters and setters
 
     public String getPaymentId() {
         return paymentId;
@@ -25,12 +23,11 @@ public class PaymentEvent {
         this.amount = amount;
     }
 
-    public String getCustomerId() {
-        return customerId;
+    public String getCurrency() {
+        return currency;
     }
 
-    public void setCustomerId(String customerId) {
-        this.customerId = customerId;
+    public void setCurrency(String currency) {
+        this.currency = currency;
     }
 }
-
