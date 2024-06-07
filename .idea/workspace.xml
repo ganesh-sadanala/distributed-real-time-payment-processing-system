@@ -4,43 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="create profile specific properties files">
-      <change afterPath="$PROJECT_DIR$/payment-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="add properties to modules">
+      <change afterPath="$PROJECT_DIR$/payment-gateway/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/service/PaymentProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/PaymentGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/model/PaymentEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/payment/gateway/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/settlement/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/PaymentEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/settlement/SettlementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/transaction/processing/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/PaymentEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/systems/transaction/processing/TransactionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/TransactionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-settlement.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-transaction.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/payment/gateway/service/PaymentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/settlement/SettlementServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-gateway/src/main/java/com/systems/payment/gateway/controller/PaymentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CodyActiveAccount">
-    <option name="activeAccountId" value="VXNlcjo0NDIzMjE=" />
+    <option name="activeAccountId" value="VXNlcjo0NDc4MzE=" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ganesh-sadanala"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ganesh-sadanala/distributed-real-time-payment-processing-system.git",
+    "accountId": "d2164b17-db22-49bf-a908-dbf340a18349"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,23 +55,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.PaymentGatewayApplication.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.CodyAccountHistoryMigration": "true",
-    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
-    "RunOnceActivity.CodyHistoryLlmMigration": "true",
-    "RunOnceActivity.CodyProjectSettingsMigration": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-22",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gsadanala/IdeaProjects/distributed-real-time-payment-processing-system"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PaymentGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gsadanala/IdeaProjects/distributed-real-time-payment-processing-system&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/settlement/src/main/java/com/systems" />
@@ -187,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717220559539</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modularize each separate microservice">
+      <option name="closed" value="true" />
+      <created>1717265248425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717265248425</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add properties to modules">
+      <option name="closed" value="true" />
+      <created>1717268212017</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717268212017</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +200,8 @@
     <MESSAGE value="Add unit tests for services" />
     <MESSAGE value="Add logging" />
     <MESSAGE value="create profile specific properties files" />
-    <option name="LAST_COMMIT_MESSAGE" value="create profile specific properties files" />
+    <MESSAGE value="modularize each separate microservice" />
+    <MESSAGE value="add properties to modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="add properties to modules" />
   </component>
 </project>
