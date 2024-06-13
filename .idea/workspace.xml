@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Update docker-compose.yml to have a new topic: processed-payment-events">
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/model/ProcessedTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/repository/ProcessedTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/service/TransactionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/service/TransactionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-processing/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718311520975</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update docker-compose.yml to have a new topic: processed-payment-events">
+      <option name="closed" value="true" />
+      <created>1718311613819</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718311613819</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,6 +235,7 @@
     <MESSAGE value="Add Payment Processor to handle async tasks" />
     <MESSAGE value="Update the TransactionProcessor to publish an event to a separate kafka topic for settlement service to consume" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Update docker-compose.yml to have a new topic: processed-payment-events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update docker-compose.yml to have a new topic: processed-payment-events" />
   </component>
 </project>
