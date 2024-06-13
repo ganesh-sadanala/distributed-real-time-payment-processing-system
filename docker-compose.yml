@@ -18,7 +18,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
-      KAFKA_CREATE_TOPICS: "payment-events:1:1"
+      KAFKA_CREATE_TOPICS: "payment-events:1:1,processed-payment-events:1:1"
       CLUSTER_ID: ScfKcr1dT8iGunVDgvV4HQ==
     volumes:
       - ./data/kafka:/var/lib/kafka/data
