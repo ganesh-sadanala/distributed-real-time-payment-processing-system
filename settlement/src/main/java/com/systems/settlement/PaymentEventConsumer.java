@@ -17,7 +17,7 @@ public class PaymentEventConsumer {
         this.settlementService = settlementService;
     }
 
-    @KafkaListener(topics = "payment-events", groupId = "settlement-group")
+    @KafkaListener(topics = "processed-transaction-events", groupId = "settlement-group")
     public void consumePaymentEvent(ConsumerRecord<String, PaymentEvent> record) {
         PaymentEvent paymentEvent = record.value();
         logger.info("Received payment event in settlement-group: {}", paymentEvent);

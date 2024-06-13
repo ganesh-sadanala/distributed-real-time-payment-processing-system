@@ -1,4 +1,4 @@
-package com.systems.transaction.processing;
+package com.systems.transaction.processing.service;
 
 import com.systems.common.model.PaymentEvent;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

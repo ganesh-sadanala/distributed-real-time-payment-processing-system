@@ -1,6 +1,7 @@
 package com.systems.transaction.processing;
 
 import com.systems.common.model.PaymentEvent;
+import com.systems.transaction.processing.service.TransactionProcessor;
 import org.junit.jupiter.api.Test;
 
 public class TransactionProcessorTest {
