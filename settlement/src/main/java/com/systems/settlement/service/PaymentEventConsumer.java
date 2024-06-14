@@ -1,4 +1,4 @@
-package com.systems.settlement;
+package com.systems.settlement.service;
 
 import com.systems.common.model.PaymentEvent;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

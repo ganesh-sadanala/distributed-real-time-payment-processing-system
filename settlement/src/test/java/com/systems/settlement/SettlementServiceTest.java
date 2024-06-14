@@ -1,6 +1,7 @@
 package com.systems.settlement;
 
 import com.systems.common.model.PaymentEvent;
+import com.systems.settlement.service.SettlementService;
 import org.junit.jupiter.api.Test;
 
 public class SettlementServiceTest {

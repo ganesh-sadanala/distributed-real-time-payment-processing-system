@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="Update docker-compose.yml to have a new topic: processed-payment-events">
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/model/ProcessedTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/repository/ProcessedTransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/service/TransactionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/java/com/systems/transaction/processing/service/TransactionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-processing/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-processing/src/test/java/com/systems/transaction/processing/TransactionProcessorTest.java" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="persist transaction processing data in mongodb">
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/model/Settlement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/repository/SettlementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/service/PaymentEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/service/SettlementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/src/test/java/com/systems/settlement/SettlementServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718311613819</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="persist transaction processing data in mongodb">
+      <option name="closed" value="true" />
+      <created>1718312044714</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718312044714</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +247,7 @@
     <MESSAGE value="Update the TransactionProcessor to publish an event to a separate kafka topic for settlement service to consume" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update docker-compose.yml to have a new topic: processed-payment-events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update docker-compose.yml to have a new topic: processed-payment-events" />
+    <MESSAGE value="persist transaction processing data in mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="persist transaction processing data in mongodb" />
   </component>
 </project>
