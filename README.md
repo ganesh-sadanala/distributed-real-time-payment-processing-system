@@ -23,4 +23,5 @@
 - **transaction-processing:** MongoDB/NoSQL/DocumentDB 
   - **Reasons:** Horizontal Scalability (Sharding), High Availability (Replica sets), Schema flexibility, Write Performance.
   - Anticipating that the current system is handling large volumes of diverse transaction data and require flexible, scalable storage, we are going with MongoDB.
-- 
+- **settlement:** PostgreSQL
+  - **Reasons:** Necessary transactional integrity, relationships, consistency, security features.

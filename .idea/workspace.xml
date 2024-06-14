@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="persist transaction processing data in mongodb">
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/model/Settlement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/repository/SettlementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/PaymentEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/service/PaymentEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/SettlementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/systems/settlement/service/SettlementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/test/java/com/systems/settlement/SettlementServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/test/java/com/systems/settlement/SettlementServiceTest.java" afterDir="false" />
+    <list default="true" id="4bf38c30-e3b7-4598-a4fc-6e909f7f941d" name="Changes" comment="persist settlement service data in postgresql">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718312044714</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="persist settlement service data in postgresql">
+      <option name="closed" value="true" />
+      <created>1718342017675</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718342017675</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +249,7 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update docker-compose.yml to have a new topic: processed-payment-events" />
     <MESSAGE value="persist transaction processing data in mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="persist transaction processing data in mongodb" />
+    <MESSAGE value="persist settlement service data in postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="persist settlement service data in postgresql" />
   </component>
 </project>
